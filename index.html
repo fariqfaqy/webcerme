@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="id">
+<html lang="id" prefix="og: https://ogp.me/ns#">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
 
-    <!-- Primary Meta Tags -->
+    <!-- Title & Basic Meta -->
     <title>Katalog UMKM Desa Cerme</title>
     <meta name="title" content="Katalog UMKM Desa Cerme" />
     <meta
@@ -20,20 +20,27 @@
       content="Katalog digital usaha lokal Desa Cerme - Temukan produk olahan kuliner, minuman tradisional, dan snack khas warga Desa Cerme."
     />
 
-    <!-- Open Graph / Facebook / WhatsApp -->
+    <!-- Schema.org / Google / WhatsApp Fallback -->
+    <meta itemprop="name" content="Katalog UMKM Desa Cerme" />
+    <meta itemprop="description" content="Katalog digital usaha lokal Desa Cerme - Temukan produk olahan kuliner, minuman tradisional, dan snack khas warga Desa Cerme." />
+    <meta itemprop="image" content="https://webcerme.vercel.app/og-image.jpg" />
+    <link rel="image_src" href="https://webcerme.vercel.app/og-image.jpg" />
+
+    <!-- Open Graph / WhatsApp / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://webcerme.vercel.app/" />
+    <meta property="og:site_name" content="UMKM Desa Cerme" />
     <meta property="og:title" content="Katalog UMKM Desa Cerme" />
     <meta
       property="og:description"
       content="Katalog digital usaha lokal Desa Cerme - Temukan produk olahan kuliner, minuman tradisional, dan snack khas warga Desa Cerme."
     />
-    <meta property="og:image" content="https://webcerme.vercel.app/og-image.jpg?v=2" />
-    <meta property="og:image:secure_url" content="https://webcerme.vercel.app/og-image.jpg?v=2" />
+    <meta property="og:image" content="https://webcerme.vercel.app/og-image.jpg" />
+    <meta property="og:image:secure_url" content="https://webcerme.vercel.app/og-image.jpg" />
     <meta property="og:image:type" content="image/jpeg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:site_name" content="UMKM Desa Cerme" />
+    <meta property="og:image:alt" content="Katalog UMKM Desa Cerme" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
@@ -43,7 +50,7 @@
       name="twitter:description"
       content="Katalog digital usaha lokal Desa Cerme - Temukan produk olahan kuliner, minuman tradisional, dan snack khas warga Desa Cerme."
     />
-    <meta name="twitter:image" content="https://webcerme.vercel.app/og-image.jpg?v=2" />
+    <meta name="twitter:image" content="https://webcerme.vercel.app/og-image.jpg" />
   </head>
   <body>
     <div id="root"></div>
