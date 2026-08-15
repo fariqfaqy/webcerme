@@ -1,0 +1,20 @@
+{
+  "id": "indah-sapariyati",
+  "nama": "Indah Snack",
+  "kategori": "Snack",
+  "deskripsi": "Usaha camilan olahan rumahan yang menyajikan aneka jajanan basah dan kering segar dengan sistem Pre-Order (PO) setiap hari. Mengutamakan cita rasa yang autentik, kebersihan proses, serta bahan-bahan berkualitas premium. Siap menerima pesanan khusus untuk melengkapi berbagai momen berharga Anda.",
+  "foto": [
+    "/umkm-assets/indah-sapariyati/1.jpg",
+    "/umkm-assets/indah-sapariyati/2.jpg"
+  ],
+  "alamat": "Desa Cerme, RT 05/RW 01",
+  "mapsUrl": "https://maps.app.goo.gl/XrbfFEUfrURpDDVNA",
+  "pemilik": "Indah Sapariyati",
+  "kisaranHarga": "Sesuai Pesanan",
+  "kontak": {
+    "whatsapp": "6283866076692",
+    "telepon": "083866076692"
+  },
+  "produk": ["Aneka Snack", "Snack Basah & Kering"],
+  "jamOperasional": "Setiap hari buka (PO)"
+}

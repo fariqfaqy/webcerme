@@ -1,0 +1,17 @@
+{
+  "id": "sample-umkm",
+  "nama": "Warung Sampel",
+  "pemilik": "Ibu Sari",
+  "kategori": "Makanan",
+  "deskripsi": "Contoh profil UMKM untuk demonstrasi struktur folder per-UMKM.",
+  "alamat": "Jl. Contoh No.1, Desa Cerme",
+  "tahunBerdiri": "2020",
+  "jamOperasional": "08:00 - 18:00",
+  "kontak": {
+    "telepon": "081234567890",
+    "whatsapp": "6281234567890"
+  },
+  "produk": ["Kue tradisional", "Minuman herbal"],
+  "foto": ["/public/sample-umkm-1.jpg"],
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Warung%20Sampel%20Jl.%20Contoh%20No.1%2C%20Desa%20Cerme"
+}

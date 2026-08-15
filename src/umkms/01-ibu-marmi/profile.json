@@ -1,0 +1,20 @@
+{
+  "id": "ibu-marmi",
+  "nama": "Kriptesa E.M",
+  "kategori": "Makanan",
+  "deskripsi": "Keripik tempe renyah dengan cita rasa gurih dan nikmat, dibuat dari tempe pilihan yang diolah dengan penuh perhatian. Cocok sebagai camilan santai maupun teman makan sehari-hari. Dengan tekstur yang renyah dan rasa yang khas, sekali coba bikin ingin lagi!",
+  "foto": [
+    "/umkm-assets/ibu-marmi/1.jpg",
+    "/umkm-assets/ibu-marmi/2.jpg"
+  ],
+  "alamat": "Desa Cerme, RT 01/RW 01",
+  "mapsUrl": "https://www.google.com/maps/place/7%C2%B010'10.6%22S+110%C2%B043'51.1%22E/@-7.1696017,110.7282792,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-7.1696017!4d110.7308541?hl=en&entry=ttu&g_ep=EgoyMDI2MDgwNC4wIKXMDSoASAFQAw%3D%3D",
+  "pemilik": "Ibu Marmi",
+  "kisaranHarga": "Rp6.000 / 500 gram",
+  "kontak": {
+    "whatsapp": "6281325017573",
+    "telepon": "081325017573"
+  },
+  "produk": ["Keripik Tempe"],
+  "jamOperasional": "Selama Bulan Ramadhan: 08.00 - 21.00 WIB"
+}

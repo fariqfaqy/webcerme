@@ -1,0 +1,24 @@
+{
+  "id": "nurul-hapsari",
+  "nama": "Nurul Hapsari",
+  "kategori": "Makanan",
+  "deskripsi": "Spesialis olahan gula semut alami serta wajik kletek tradisional berkualitas tinggi berbahan dasar nira pilihan dan kelapa segar Desa Cerme. Memiliki perpaduan rasa manis legit yang pas serta aroma wangi khas olahan kelapa yang gurih. Sangat cocok dijadikan sebagai hidangan acara istimewa, buah tangan khas, maupun sajian manis harian.",
+  "foto": [
+    "/umkm-assets/nurul-hapsari/1.jpg",
+    "/umkm-assets/nurul-hapsari/2.jpg"
+  ],
+  "alamat": "Desa Cerme, Dusun cerme kidul, RT 14/RW 01",
+  "mapsUrl": "https://maps.app.goo.gl/HFWqSD7Ta7BsJ6ix6",
+  "pemilik": "Ibu Nurul Hapsari",
+  "kisaranHarga": "Rp 10.000 per mika isi 15",
+  "kontak": {
+    "whatsapp": "6282241135580",
+    "telepon": "082241135580"
+  },
+  "produk": [
+    "Gula semut",
+    "Wajik kletek"
+  ],
+  "jamOperasional": "setiap hari terima pesanan : 08.00-21.00 WIB",
+  "halal": true
+}

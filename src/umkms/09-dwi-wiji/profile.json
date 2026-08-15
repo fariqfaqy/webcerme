@@ -1,0 +1,21 @@
+{
+  "id": "dwi-wiji",
+  "nama": "Omah Halwa Snack",
+  "kategori": "Snack",
+  "deskripsi": "Rumah produksi kuliner khas Desa Cerme yang melayani pemesanan aneka snack, cake lembut, nasi kotak lezat, hingga asinan segar. Dibuat sesuai pesanan dengan resep andalan keluarga yang kaya rasa serta higienis. Solusi praktis dan tepercaya untuk segala kebutuhan sajian acara, syukuran, maupun konsumsi harian.",
+  "foto": [
+    "/umkm-assets/dwi-wiji/1.jpg",
+    "/umkm-assets/dwi-wiji/2.jpg"
+  ],
+  "alamat": "Desa Cerme, RT 07/RW 01",
+  "mapsUrl": "https://maps.app.goo.gl/pRgaefNYz9PnKAXc8",
+  "pemilik": "Dwi Wiji",
+  "kisaranHarga": "Mulai dari Rp1.500 (tergantung pesanan)",
+  "kontak": {
+    "whatsapp": "6281327399020",
+    "telepon": "081327399020"
+  },
+  "produk": ["Snack", "Cake", "Nasi Kotak", "Asinan"],
+  "jamOperasional": "Tergantung pesanan (setiap hari buka)",
+  "halal": true
+}

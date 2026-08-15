@@ -1,0 +1,21 @@
+{
+  "id": "kartini",
+  "nama": "Nina Snack",
+  "kategori": "Snack",
+  "deskripsi": "Penyedia aneka kue basah, jajanan pasar renyah, cake lembut, hingga paket nasi kotak lezat untuk berbagai skala acara di Desa Cerme. Setiap olahan dimasak secara higienis menggunakan bahan-bahan segar pilihan demi menjaga kualitas rasa yang istimewa. Pilihan tepat dan praktis untuk melengkapi momen spesial, konsumsi rapat, maupun hajatan.",
+  "foto": [
+    "/umkm-assets/kartini/1.jpg",
+    "/umkm-assets/kartini/2.jpg"
+  ],
+  "alamat": "Desa Cerme, Dusun Cerme Kidul, RT 14/RW 01",
+  "mapsUrl": "https://maps.app.goo.gl/dqSu17gLhcYqJmxz8?g_st=ac",
+  "pemilik": "Ibu Kartini",
+  "kisaranHarga": "Rp 1.500 - Rp 3.000",
+  "kontak": {
+    "whatsapp": "6281228923738",
+    "telepon": "081228923738"
+  },
+  "produk": ["Snack Kering dan Basah", "Cake", "Nasi Kotak"],
+  "jamOperasional": "Terima pesanan setiap hari",
+  "halal": true
+}

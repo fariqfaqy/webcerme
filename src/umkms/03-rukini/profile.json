@@ -1,0 +1,20 @@
+{
+  "id": "rukini",
+  "nama": "Jamu Tradisional RU",
+  "kategori": "Minuman",
+  "deskripsi": "Racikan jamu tradisional sehat dan segar khas Desa Cerme olahan Ibu Rukini, dibuat secara higienis dari rempah-rempah pilihan murni tanpa bahan pengawet. Berbahan dasar empon-empon alami yang berkhasiat tinggi untuk memelihara daya tahan dan kebugaran tubuh. Nikmati kesegaran rasa otentik jamu leluhur yang nikmat dan menyehatkan di setiap tegukan!",
+  "foto": [
+    "/umkm-assets/rukini/1.jpg",
+    "/umkm-assets/rukini/2.jpg"
+  ],
+  "alamat": "Desa Cerme, RT 03/RW 01",
+  "mapsUrl": "https://maps.app.goo.gl/sbUQyrpYBDH9ZSth7?g_st=ac",
+  "pemilik": "Rukini",
+  "kisaranHarga": "Mulai dari Rp7.000",
+  "kontak": {
+    "whatsapp": "6285225262049",
+    "telepon": "085225262049"
+  },
+  "produk": ["Jamu Tradisional"],
+  "jamOperasional": "Buka Setiap Hari: 08.00 - 21.00 WIB"
+}

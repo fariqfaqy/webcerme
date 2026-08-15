@@ -1,0 +1,348 @@
+@import 'tailwindcss';
+
+/* ───────────────────── Dark Mode Variables ───────────────────── */
+:root {
+  --bg-primary: #FAF8F5;
+  --bg-card: #ffffff;
+  --bg-section: #FAF8F5;
+  --bg-input: #FAF8F5;
+  --text-heading: #0F172A;
+  --text-body: #334155;
+  --text-muted: #64748B;
+  --text-contrast: #0F172A;
+  --border-color: #e2e8f0;
+  --border-subtle: rgba(15, 23, 42, 0.06);
+  --shadow-card: 0 4px 20px rgba(15, 23, 42, 0.08);
+  --shadow-hover: 0 16px 36px rgba(27, 77, 62, 0.15);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[data-theme="dark"] {
+  --bg-primary: #0B1D17;
+  --bg-card: #122A22;
+  --bg-section: #0F2419;
+  --bg-input: #1A3D30;
+  --text-heading: #F1F5F9;
+  --text-body: #CBD5E1;
+  --text-muted: #94A3B8;
+  --text-contrast: #F8FAFC;
+  --border-color: #1E4D3D;
+  --border-subtle: rgba(255, 255, 255, 0.06);
+  --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.3);
+  --shadow-hover: 0 16px 36px rgba(0, 0, 0, 0.4);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: var(--bg-primary);
+  color: var(--text-body);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+@layer base {
+  body {
+    background: var(--bg-primary);
+    color: var(--text-body);
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    font-weight: 400;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: var(--text-heading);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+
+  p {
+    line-height: 1.65;
+  }
+}
+
+@layer utilities {
+  .text-theme-heading {
+    color: var(--text-heading);
+  }
+
+  .text-theme-body {
+    color: var(--text-body);
+  }
+
+  .text-theme-muted {
+    color: var(--text-muted);
+  }
+
+  .text-theme-contrast {
+    color: var(--text-contrast);
+  }
+
+  .bg-theme-card {
+    background-color: var(--bg-card);
+  }
+
+  .bg-theme-input {
+    background-color: var(--bg-input);
+  }
+
+  .border-theme {
+    border-color: var(--border-color);
+  }
+
+  .fill-theme-heading {
+    fill: var(--text-heading);
+  }
+
+  .fill-theme-contrast {
+    fill: var(--text-contrast);
+  }
+
+  .stroke-theme-heading {
+    stroke: var(--text-heading);
+  }
+
+  .stroke-theme-contrast {
+    stroke: var(--text-contrast);
+  }
+}
+
+/* ───────────────────── Scroll Reveal Animations ───────────────────── */
+@keyframes reveal-up {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes reveal-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes reveal-scale {
+  from {
+    opacity: 0;
+    transform: scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes reveal-left {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes reveal-right {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.scroll-reveal {
+  opacity: 0;
+}
+
+.scroll-reveal.is-visible {
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.scroll-reveal.is-visible[data-animation="up"] {
+  animation-name: reveal-up;
+}
+
+.scroll-reveal.is-visible[data-animation="fade"] {
+  animation-name: reveal-fade;
+}
+
+.scroll-reveal.is-visible[data-animation="scale"] {
+  animation-name: reveal-scale;
+}
+
+.scroll-reveal.is-visible[data-animation="left"] {
+  animation-name: reveal-left;
+}
+
+.scroll-reveal.is-visible[data-animation="right"] {
+  animation-name: reveal-right;
+}
+
+/* ───────────────────── Floating Shapes ───────────────────── */
+@keyframes float-slow {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-20px) rotate(5deg);
+  }
+}
+
+@keyframes float-medium {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  33% {
+    transform: translateY(-15px) rotate(-3deg);
+  }
+  66% {
+    transform: translateY(10px) rotate(3deg);
+  }
+}
+
+@keyframes float-fast {
+  0%, 100% {
+    transform: translateY(0px) scale(1);
+  }
+  50% {
+    transform: translateY(-12px) scale(1.05);
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1.1);
+  }
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-float-slow {
+  animation: float-slow 6s ease-in-out infinite;
+}
+
+.animate-float-medium {
+  animation: float-medium 5s ease-in-out infinite;
+}
+
+.animate-float-fast {
+  animation: float-fast 3s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 4s ease-in-out infinite;
+}
+
+.animate-spin-slow {
+  animation: spin-slow 20s linear infinite;
+}
+
+/* ───────────────────── Tilt Card Effect ───────────────────── */
+.tilt-card {
+  transform-style: preserve-3d;
+  transition: transform 0.15s ease-out;
+}
+
+.tilt-card:hover {
+  will-change: transform;
+}
+
+/* ───────────────────── Counter Animation ───────────────────── */
+@keyframes count-pop {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.count-pop {
+  animation: count-pop 0.3s ease-out;
+}
+
+/* ───────────────────── Dark Mode Transitions ───────────────────── */
+[data-theme="dark"] header,
+[data-theme="dark"] footer,
+[data-theme="dark"] .dark-transition {
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+/* ───────────────────── Scrollbar ───────────────────── */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+/* ───────────────────── Continuous Marquee Animation ───────────────────── */
+@keyframes marquee-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee-left {
+  animation: marquee-left 35s linear infinite;
+  will-change: transform;
+}
+
+
+

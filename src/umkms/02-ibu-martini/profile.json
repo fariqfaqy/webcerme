@@ -1,0 +1,21 @@
+{
+  "id": "ibu-martini",
+  "nama": "Snack Ibu Martini",
+  "kategori": "Snack",
+  "deskripsi": "Menyajikan aneka pilihan snack dan camilan lezat olahan rumahan khas Desa Cerme yang dibuat segar berdasarkan pesanan. Terbuat dari bahan-bahan berkualitas dengan racikan bumbu istimewa yang gurih dan lezat. Sangat pas untuk melengkapi berbagai acara keluarga, hajatan, rapat, maupun sekadar teman santai di rumah.",
+  "foto": [
+    "/umkm-assets/ibu-martini/1.jpg",
+    "/umkm-assets/ibu-martini/2.jpg"
+  ],
+  "alamat": "Desa Cerme, RT 02/RW 01",
+  "mapsUrl": "https://maps.app.goo.gl/qcebZPeCD2d2RFBH9",
+  "pemilik": "Ibu Martini",
+  "kisaranHarga": "Mulai dari Rp5.000",
+  "kontak": {
+    "whatsapp": "6288221743539",
+    "telepon": "08221743539"
+  },
+  "produk": ["Snack Ringan"],
+  "jamOperasional": "Terima Pesanan: 08.00 - 21.00 WIB",
+  "tahunBerdiri": 2019
+}

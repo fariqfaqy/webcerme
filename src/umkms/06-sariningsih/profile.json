@@ -1,0 +1,21 @@
+{
+  "id": "sariningsih",
+  "nama": "Dian Sari",
+  "kategori": "Makanan",
+  "deskripsi": "Produsen olahan keripik gadung tradisional khas Desa Cerme yang diolah secara teliti untuk menghasilkan tekstur super renyah dan tidak pahit. Dibuat melalui proses pengolahan alami yang aman serta dipadu bumbu gurih yang meresap sempurna. Tersedia dalam varian mentah siap goreng maupun matang yang siap langsung dinikmati.",
+  "foto": [
+    "/umkm-assets/sariningsih/1.jpg",
+    "/umkm-assets/sariningsih/2.jpg"
+  ],
+  "alamat": "Desa Cerme, RT 08/RW 02",
+  "mapsUrl": "https://maps.app.goo.gl/BpuGVSfKcJ9jmYs76",
+  "pemilik": "Ibu Sari Ningsih",
+  "kisaranHarga": "Rp 50.000/1kg (mentah), Rp 70.000/1kg (matang)",
+  "kontak": {
+    "whatsapp": "6282231107474",
+    "telepon": "082231107474"
+  },
+  "produk": ["Kripik Gadung"],
+  "jamOperasional": "Setiap hari buka selama musim kemarau",
+  "halal": true
+}

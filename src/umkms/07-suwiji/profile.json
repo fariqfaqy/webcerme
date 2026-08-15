@@ -1,0 +1,20 @@
+{
+  "id": "suwiji",
+  "nama": "Suwiji",
+  "kategori": "Makanan",
+  "deskripsi": "Keripik gadung khas Desa Cerme olahan Ibu Suwiji yang terkenal akan kerenyahan teksturnya serta cita rasa gurih yang menggugah selera. Diolah dari umbi gadung pilihan melalui tahapan tradisional yang bersih dan aman dimakan. Olahan camilan tradisional otentik yang cocok dipadukan saat kumpul keluarga maupun oleh-oleh khas.",
+  "foto": [
+    "/umkm-assets/suwiji/1.jpg",
+    "/umkm-assets/suwiji/2.jpg"
+  ],
+  "alamat": "Desa Cerme, RT 07/RW 01",
+  "mapsUrl": "https://maps.app.goo.gl/vkr7DxyhAvAHdYXg8",
+  "pemilik": "Suwiji",
+  "kisaranHarga": "Mulai dari Rp10.000",
+  "kontak": {
+    "whatsapp": "6282225607247",
+    "telepon": "082225607247"
+  },
+  "produk": ["Kripik Gadung"],
+  "jamOperasional": "Setiap Hari Buka"
+}

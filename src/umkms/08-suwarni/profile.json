@@ -1,0 +1,20 @@
+{
+  "id": "suwarni",
+  "nama": "Letizia Snack",
+  "kategori": "Snack",
+  "deskripsi": "Letizia Snack menghadirkan beragam variasi jajanan dan camilan gurih hingga manis yang siap menyemarakkan berbagai aktivitas Anda. Diproses dari bahan-bahan bermutu dengan rasa yang terjamin lezat serta kemasan yang bersih. Siap melayani pesanan partai besar maupun kecil untuk kebutuhan arisan, ulang tahun, dan konsumsi harian.",
+  "foto": [
+    "/umkm-assets/suwarni/1.jpg",
+    "/umkm-assets/suwarni/2.jpg"
+  ],
+  "alamat": "Desa Cerme, RT 14/RW 01",
+  "mapsUrl": "https://maps.app.goo.gl/ZhPoQuKRN27GjmMn8",
+  "pemilik": "Suwarni",
+  "kisaranHarga": "Mulai dari Rp2.000",
+  "kontak": {
+    "whatsapp": "6282138334982",
+    "telepon": "082138334982"
+  },
+  "produk": ["Aneka Snack", "Snack Ringan"],
+  "jamOperasional": "Terima Pesanan"
+}
